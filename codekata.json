@@ -1,0 +1,36 @@
+[
+    {
+        "id": 1,
+        "name": "Array",
+        "problems": 40,
+        "user_id": [
+            {
+                "_id":ObjectId('65de5ff5a8559b17c665c571'),
+                "solved": 15
+            },
+            {
+                "_id":ObjectId('65de5ff5a8559b17c665c572'),
+                "solved": 20
+            },
+            {
+                "_id":ObjectId('65de5ff5a8559b17c665c573'),
+                "solved": 25
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Strings",
+        "problems": 30,
+        "user_id": [
+            {
+                "_id":ObjectId('65de5ff5a8559b17c665c571'),
+                "solved": 15
+            },
+            {
+                "_id":ObjectId('65de5ff5a8559b17c665c572'),
+                "solved": 10
+            }
+        ]
+    }
+]

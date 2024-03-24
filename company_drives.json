@@ -1,0 +1,80 @@
+[
+    {
+        "name": "Wipro",
+        "date": "2023-10-03",
+        "students_appeared": [
+            {
+                "user_id_1":ObjectId('65de5ff5a8559b17c665c571'),
+                "result": "selected"
+            },
+            {
+                "user_id_2":ObjectId('65de5ff5a8559b17c665c572'),
+                "result": "not-selected"
+            },
+            {
+                "user_id_3":ObjectId('65de5ff5a8559b17c665c575'),
+                "result": "selected"
+            }
+        ]
+    },
+    {
+        "name": "TCS",
+        "date": "2023-10-15",
+        "students_appeared": [
+            {
+                "user_id_1":ObjectId('65de5ff5a8559b17c665c571'),
+                "result": "selected"
+            },
+            {
+                "user_id_2":ObjectId('65de5ff5a8559b17c665c572'),
+                "result": "not-selected"
+            }
+        ]
+    },
+    {
+        "name": "Zoho",
+        "date": "2023-10-21",
+        "students_appeared": [
+            {
+                "user_id_1":ObjectId('65de5ff5a8559b17c665c571'),
+                "result": "not-selected"
+            },
+            {
+                "user_id_2":ObjectId('65de5ff5a8559b17c665c572'),
+                "result": "selected"
+            },
+            {
+                "user_id_3":ObjectId('65de5ff5a8559b17c665c574'),
+                "result": "not-selected"
+            }
+        ]
+    },
+    {
+        "name": "Capgemini",
+        "date": "2023-10-25",
+        "students_appeared": [
+            {
+                "user_id_1":ObjectId('65de5ff5a8559b17c665c571'),
+                "result": "not-selected"
+            },
+            {
+                "user_id_2":ObjectId('65de5ff5a8559b17c665c574'),
+                "result": "not-selected"
+            }
+        ]
+    },
+    {
+        "name": "Cognizant",
+        "date": "2023-10-28",
+        "students_appeared": [
+            {
+                "user_id_1":ObjectId('65de5ff5a8559b17c665c571'),
+                "result": "not-selected"
+            },
+            {
+                "user_id_2":ObjectId('65de5ff5a8559b17c665c574'),
+                "result": "selected"
+            }
+        ]
+    }
+]

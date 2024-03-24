@@ -1,0 +1,84 @@
+[
+    {
+        "name": "Task 1",
+        "date": "2023-09-30",
+        "user_id": [
+            {
+                "_id":ObjectId('65de5ff5a8559b17c665c571'),
+                "status": "not submitted"
+            },
+            {
+                "_id":ObjectId('65de5ff5a8559b17c665c572'),
+                "status": "not submitted"
+            },
+            {
+                "_id":ObjectId('65de5ff5a8559b17c665c573'),
+                "status": "submitted"
+            }
+        ]
+    },
+    {
+        "name": "Task 2",
+        "date": "2023-10-04",
+        "user_id": [
+            {
+                "_id":ObjectId('65de5ff5a8559b17c665c571'),
+                "status": "not submitted"
+            },
+            {
+                "_id":ObjectId('65de5ff5a8559b17c665c572'),
+                "status": "submitted"
+            },
+            {
+                "_id":ObjectId('65de5ff5a8559b17c665c573'),
+                "status": "not submitted"
+            }
+        ]
+    },
+    {
+        "name": "Task 3",
+        "date": "2023-10-05",
+        "user_id": [
+            {
+                "_id":ObjectId('65de5ff5a8559b17c665c571'),
+                "status": "submitted"
+            },
+            {
+                "_id":ObjectId('65de5ff5a8559b17c665c572'),
+                "status": "not submitted"
+            }
+        ]
+    },
+    {
+        "name": "Task 4",
+        "date": "2023-10-14",
+        "user_id": [
+            {
+                "_id":ObjectId('65de5ff5a8559b17c665c571'),
+                "status": "submitted"
+            },
+            {
+                "_id":ObjectId('65de5ff5a8559b17c665c572'),
+                "status": "not submitted"
+            },
+            {
+                "_id":ObjectId('65de5ff5a8559b17c665c573'),
+                "status": "submitted"
+            }
+        ]
+    },
+    {
+        "name": "Task 5",
+        "date": "2023-10-15",
+        "user_id": [
+            {
+                "_id":ObjectId('65de5ff5a8559b17c665c571'),
+                "status": "not submitted"
+            },
+            {
+                "_id":ObjectId('65de5ff5a8559b17c665c572'),
+                "status": "submitted"
+            }
+        ]
+    }
+]

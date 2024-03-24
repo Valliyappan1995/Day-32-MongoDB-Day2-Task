@@ -1,0 +1,97 @@
+[
+    {
+        "date": "2023-10-15",
+        "user_id": [
+            {
+                "_id":ObjectId('65de5ff5a8559b17c665c571'),
+                "status": "present",
+                "tasksubmitted": "no"
+            },
+            {
+                "_id":ObjectId('65de5ff5a8559b17c665c572'),
+                "status": "absent",
+                "tasksubmitted": "no"
+            },
+            {
+                "_id":ObjectId('65de5ff5a8559b17c665c573'),
+                "status": "absentt",
+                "tasksubmitted": "yes"
+            }
+        ]
+    },
+    {
+        "date": "2023-10-21",
+        "user_id": [
+            {
+                "_id":ObjectId('65de5ff5a8559b17c665c571'),
+                "status": "absent",
+                "tasksubmitted": "no"
+            },
+            {
+                "_id":ObjectId('65de5ff5a8559b17c665c572'),
+                "status": "present",
+                "tasksubmitted": "yes"
+            },
+            {
+                "_id":ObjectId('65de5ff5a8559b17c665c573'),
+                "status": "present",
+                "tasksubmitted": "no"
+            }
+        ]
+    },
+    {
+        "date": "2023-10-22",
+        "user_id": [
+            {
+                "_id":ObjectId('65de5ff5a8559b17c665c571'),
+                "status": "present",
+                "tasksubmitted": "no"
+            },
+            {
+                "_id":ObjectId('65de5ff5a8559b17c665c572'),
+                "status": "present",
+                "tasksubmitted": "yes"
+            }
+        ]
+    },
+    {
+        "date": "2023-10-28",
+        "user_id": [
+            {
+                "_id":ObjectId('65de5ff5a8559b17c665c571'),
+                "status": "absent",
+                "tasksubmitted": "yes"
+            },
+            {
+                "_id":ObjectId('65de5ff5a8559b17c665c572'),
+                "status": "present",
+                "tasksubmitted": "yes"
+            },
+            {
+                "_id":ObjectId('65de5ff5a8559b17c665c573'),
+                "status": "present",
+                "tasksubmitted": "yes"
+            }
+        ]
+    },
+    {
+        "date": "2023-10-29",
+        "user_id": [
+            {
+                "_id":ObjectId('65de5ff5a8559b17c665c571'),
+                "status": "present",
+                "tasksubmitted": "no"
+            },
+            {
+                "_id":ObjectId('65de5ff5a8559b17c665c572'),
+                "status": "present",
+                "tasksubmitted": "yes"
+            },
+            {
+                "_id":ObjectId('65de5ff5a8559b17c665c573'),
+                "status": "absent",
+                "tasksubmitted": "no"
+            }
+        ]
+    }
+]

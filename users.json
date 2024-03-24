@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "name": "Abishek",
+        "placement": [
+            {
+                "drive_id_1":ObjectId('65dfa96d8418804f780a4ffa')
+            },
+            {
+                "drive_id_2":ObjectId('65dfa96d8418804f780a4ffb')
+            },
+            {
+                "drive_id_3":ObjectId('65dfa96d8418804f780a4ffc')
+            },
+            {
+                "drive_id_4":ObjectId('65dfa96d8418804f780a4ffd')
+            },
+            {
+                "drive_id_5":ObjectId('65dfa96d8418804f780a4ffe')
+            } 
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Bala",
+        "placement": [
+            {
+                "drive_id_1":ObjectId('65dfa96d8418804f780a4ffa')
+            },
+            {
+                "drive_id_2":ObjectId('65dfa96d8418804f780a4ffb')
+            },
+            {
+                "drive_id_3":ObjectId('65dfa96d8418804f780a4ffc')
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Chandru",
+        "placement": [
+            {
+                "drive_id_1":ObjectId('65dfa96d8418804f780a5000')
+            },
+            {
+                "drive_id_2":ObjectId('65dfa96d8418804f780a5001')
+            },
+            {
+                "drive_id_3":ObjectId('65dfa96d8418804f780a5002')
+            },
+            {
+                "drive_id_4":ObjectId('65dfa96d8418804f780a5003')
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Dinesh",
+        "placement": [
+            {
+                "drive_id_1":ObjectId('65dfa96d8418804f780a4ffc')
+            },
+            {
+                "drive_id_2":ObjectId('65dfa96d8418804f780a4ffd')
+            },
+            {
+                "drive_id_3":ObjectId('65dfa96d8418804f780a4ffe')
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Vinoth",
+        "placement": [
+            {
+                "drive_id_1":ObjectId('65dfa96d8418804f780a4ffa')
+            },
+            {
+                "drive_id_2":ObjectId('65dfa96d8418804f780a5005')
+            }
+        ]
+    }
+]

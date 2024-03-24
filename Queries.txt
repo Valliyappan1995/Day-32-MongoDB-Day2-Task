@@ -1,0 +1,65 @@
+Queries:
+
+1.Find all the topics and tasks which are thought in the month of October
+
+Ans:
+
+db.Topics.aggregate([
+  {$match:{date:{$gt:"2023-09-30"}}},
+  {$lookup:{from:"Tasks",localField:"task_id",foreignField:"_id",as:"tasks"}}
+])
+
+2.Find all the company drives which appeared between 15 oct-2023 and 31-oct-2023
+
+Ans:
+
+db.Company_Drives.find({$and:[{date:{$gt:"2023-10-15"}},{date:{$lt:"2023-10-31"}}]});
+
+3.Find all the company drives and students who are appeared for the placement.
+
+Ans:
+
+db.Company_Drives.aggregate([
+  {$unwind:"$students_appeared"},
+  {$match:{"students_appeared.result":"selected"}}
+])
+
+4.Find the number of problems solved by the user in codekata
+
+Ans:
+
+db.Codekata.aggregate([
+    {
+        $unwind: "$user_id"
+    },
+    {
+        $match: {
+            "user_id._id": ObjectId('65de5ff5a8559b17c665c571')
+        }
+    },
+    {
+        $group: {
+            _id: "$_id",
+            totalSolved: {
+                $sum: "$user_id.sloved"
+            }
+        }
+    }
+])
+
+5.Find all the mentors with who has the mentee's count more than 15
+
+Ans:
+
+db.Mentors.find({mentees_count:{$gt:15}})
+
+
+6.Find the number of users who are absent and task is not submitted  between 15 oct-2023 and 31-oct-2023
+
+Ans:
+
+db.Attendence.aggregate([
+  {$match:{date:{$gt:"2023-10-15",$lt:"2023-10-31"}}},
+  {$unwind:"$user_id"},
+  {$match:{"user_id.status":"absent","user_id.tasksubmitted":"no"}}
+])
